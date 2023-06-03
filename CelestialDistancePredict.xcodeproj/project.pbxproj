@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B07047C12A2BB1910035CFE3 /* CelestialDistancePredictApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07047C02A2BB1910035CFE3 /* CelestialDistancePredictApp.swift */; };
-		B07047C32A2BB1910035CFE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07047C22A2BB1910035CFE3 /* ContentView.swift */; };
+		B07047C32A2BB1910035CFE3 /* CDPMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07047C22A2BB1910035CFE3 /* CDPMainView.swift */; };
 		B07047C52A2BB1920035CFE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07047C42A2BB1920035CFE3 /* Assets.xcassets */; };
 		B07047C82A2BB1920035CFE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07047C72A2BB1920035CFE3 /* Preview Assets.xcassets */; };
 		B07047CF2A2BB1A80035CFE3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B07047CE2A2BB1A80035CFE3 /* .gitignore */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		B07047BD2A2BB1910035CFE3 /* CelestialDistancePredict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelestialDistancePredict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07047C02A2BB1910035CFE3 /* CelestialDistancePredictApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelestialDistancePredictApp.swift; sourceTree = "<group>"; };
-		B07047C22A2BB1910035CFE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B07047C22A2BB1910035CFE3 /* CDPMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDPMainView.swift; sourceTree = "<group>"; };
 		B07047C42A2BB1920035CFE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B07047C72A2BB1920035CFE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B07047CE2A2BB1A80035CFE3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -58,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				B07047C02A2BB1910035CFE3 /* CelestialDistancePredictApp.swift */,
-				B07047C22A2BB1910035CFE3 /* ContentView.swift */,
+				B07047D52A2BBA550035CFE3 /* Utilities */,
+				B07047D32A2BBA3F0035CFE3 /* Models */,
+				B07047D42A2BBA420035CFE3 /* ViewModels */,
+				B07047D22A2BBA350035CFE3 /* Views */,
 				B07047C42A2BB1920035CFE3 /* Assets.xcassets */,
 				B07047C62A2BB1920035CFE3 /* Preview Content */,
 			);
@@ -71,6 +74,35 @@
 				B07047C72A2BB1920035CFE3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B07047D22A2BBA350035CFE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B07047C22A2BB1910035CFE3 /* CDPMainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B07047D32A2BBA3F0035CFE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B07047D42A2BBA420035CFE3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B07047D52A2BBA550035CFE3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B07047C32A2BB1910035CFE3 /* ContentView.swift in Sources */,
+				B07047C32A2BB1910035CFE3 /* CDPMainView.swift in Sources */,
 				B07047C12A2BB1910035CFE3 /* CelestialDistancePredictApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
