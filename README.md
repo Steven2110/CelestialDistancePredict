@@ -10,18 +10,18 @@ In this project we are creating a prediction app to predict celestial object red
 3. Mobile App: [CelestialDistancePredict](https://github.com/Steven2110/CelestialDistancePredict)
 
 ## Demo
-[Demo](https://github.com/Steven2110/CelestialDistancePredict/blob/main/Images/Demo.gif)
+![Demo](https://github.com/Steven2110/CelestialDistancePredict/blob/main/Images/Demo.gif)
 
 ## Screenshot
 
 1. Main Screen
-[MainScreen](https://github.com/Steven2110/CelestialDistancePredict/blob/main/Images/MainScreen.png)
+![MainScreen](https://github.com/Steven2110/CelestialDistancePredict/blob/main/Images/MainScreen.png)
 
 2. Input Screen
-[InputScreen](https://github.com/Steven2110/CelestialDistancePredict/blob/main/Images/InputScreen.png)
+![InputScreen](https://github.com/Steven2110/CelestialDistancePredict/blob/main/Images/InputScreen.png)
 
 3. Result Screen
-[ResultScreen](https://github.com/Steven2110/CelestialDistancePredict/blob/main/Images/ResultScreen.png)
+![ResultScreen](https://github.com/Steven2110/CelestialDistancePredict/blob/main/Images/ResultScreen.png)
 
 4. Info Screen
-[InfoScreen](https://github.com/Steven2110/CelestialDistancePredict/blob/main/Images/InfoScreen.png)
+![InfoScreen](https://github.com/Steven2110/CelestialDistancePredict/blob/main/Images/InfoScreen.png)
