@@ -13,6 +13,15 @@
 		B07047C82A2BB1920035CFE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07047C72A2BB1920035CFE3 /* Preview Assets.xcassets */; };
 		B07047CF2A2BB1A80035CFE3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B07047CE2A2BB1A80035CFE3 /* .gitignore */; };
 		B07047D12A2BB1B10035CFE3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B07047D02A2BB1B10035CFE3 /* README.md */; };
+		B07047D82A2BBD070035CFE3 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07047D72A2BBD070035CFE3 /* ColorExtension.swift */; };
+		B07047DA2A2BC1DE0035CFE3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07047D92A2BC1DE0035CFE3 /* NetworkManager.swift */; };
+		B07047DC2A2BC5D20035CFE3 /* PredictionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07047DB2A2BC5D20035CFE3 /* PredictionResult.swift */; };
+		B07047DE2A2BC77E0035CFE3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07047DD2A2BC77E0035CFE3 /* Constants.swift */; };
+		B07047E02A2BC8190035CFE3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07047DF2A2BC8190035CFE3 /* Utilities.swift */; };
+		B07047E22A2BD2760035CFE3 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07047E12A2BD2760035CFE3 /* CustomModifiers.swift */; };
+		B07047E42A2BD2E40035CFE3 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07047E32A2BD2E40035CFE3 /* ViewExtension.swift */; };
+		B0E06DA42A2F1EE2007F77CB /* CDPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E06DA32A2F1EE2007F77CB /* CDPViewModel.swift */; };
+		B0E06DA62A2F294D007F77CB /* CDPInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E06DA52A2F294D007F77CB /* CDPInformationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +32,15 @@
 		B07047C72A2BB1920035CFE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B07047CE2A2BB1A80035CFE3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B07047D02A2BB1B10035CFE3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B07047D72A2BBD070035CFE3 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		B07047D92A2BC1DE0035CFE3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B07047DB2A2BC5D20035CFE3 /* PredictionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionResult.swift; sourceTree = "<group>"; };
+		B07047DD2A2BC77E0035CFE3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B07047DF2A2BC8190035CFE3 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B07047E12A2BD2760035CFE3 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		B07047E32A2BD2E40035CFE3 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		B0E06DA32A2F1EE2007F77CB /* CDPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDPViewModel.swift; sourceTree = "<group>"; };
+		B0E06DA52A2F294D007F77CB /* CDPInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDPInformationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				B07047C22A2BB1910035CFE3 /* CDPMainView.swift */,
+				B0E06DA52A2F294D007F77CB /* CDPInformationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -87,6 +106,7 @@
 		B07047D32A2BBA3F0035CFE3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B07047DB2A2BC5D20035CFE3 /* PredictionResult.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -94,6 +114,7 @@
 		B07047D42A2BBA420035CFE3 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B0E06DA32A2F1EE2007F77CB /* CDPViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -101,6 +122,12 @@
 		B07047D52A2BBA550035CFE3 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				B07047D72A2BBD070035CFE3 /* ColorExtension.swift */,
+				B07047DD2A2BC77E0035CFE3 /* Constants.swift */,
+				B07047E12A2BD2760035CFE3 /* CustomModifiers.swift */,
+				B07047D92A2BC1DE0035CFE3 /* NetworkManager.swift */,
+				B07047DF2A2BC8190035CFE3 /* Utilities.swift */,
+				B07047E32A2BD2E40035CFE3 /* ViewExtension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -177,8 +204,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E06DA62A2F294D007F77CB /* CDPInformationView.swift in Sources */,
+				B0E06DA42A2F1EE2007F77CB /* CDPViewModel.swift in Sources */,
+				B07047E42A2BD2E40035CFE3 /* ViewExtension.swift in Sources */,
+				B07047DA2A2BC1DE0035CFE3 /* NetworkManager.swift in Sources */,
+				B07047DC2A2BC5D20035CFE3 /* PredictionResult.swift in Sources */,
+				B07047E02A2BC8190035CFE3 /* Utilities.swift in Sources */,
+				B07047D82A2BBD070035CFE3 /* ColorExtension.swift in Sources */,
 				B07047C32A2BB1910035CFE3 /* CDPMainView.swift in Sources */,
+				B07047E22A2BD2760035CFE3 /* CustomModifiers.swift in Sources */,
 				B07047C12A2BB1910035CFE3 /* CelestialDistancePredictApp.swift in Sources */,
+				B07047DE2A2BC77E0035CFE3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
